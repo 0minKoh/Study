@@ -1,4 +1,4 @@
-# 1. **Git 설치하기**
+# 1. **Git 설치하기** (최초 1회)
     홈페이지에서 파일 다운로드 후, 설치 진행
     <Terminal에서 확인>
     $ git --version //버전 확인
@@ -29,16 +29,17 @@
 <br>
 
 # 4. **Git(local branch)에 커밋**
-    $ git config --global --list (git에 등록된 정보 확인)
-    $ git status (git에 파일들이 버전관리가 되어 있는지 확인)
+    $ git init (git - local branch에 repository 생성)
+      $ git config --global --list (git에 등록된 정보 확인)
+      $ git status (git에 파일들이 버전관리가 되어 있는지 확인)
     $ git add . (모든 파일을 버전관리한다)
     $ git commit -m  '프로젝트 이름' (새로운 버전 생성)
-    $ git log (버전 확인)
+      $ git log (버전 확인)
 <br>
 
 # 5. **GitHub Repository에 push**
     github 원격주소를 복사
-    $ git log (버전 확인)
+      $ git log (버전 확인)
     $ git remote add origin 링크(오리진이라고 불리는 링크 저장소)
     $ git push origin 브랜치이름 (해당 브랜치에 push)
 <br>
@@ -51,5 +52,5 @@ branch = 사이트에 반영 X
 ```
 <br>
 
-# 6. **Github 로그인으로 권한 허용**
+# 6. **Github 로그인으로 권한 허용** (최초 1회)
     알림 -> continue -> authorize -> login -> visual studio code.app 열기 -> password 입력
